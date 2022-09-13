@@ -1,0 +1,86 @@
+/*Nav Styles */
+.nav-link {
+  color: white;
+  font-size: 30px;
+}
+
+.nav-item {
+  background-color: red;
+}
+
+/* End of Nav Styles */
+
+/* index.html styles */
+
+#title {
+  text-align: center;
+  color: red;
+  /* margin-top: 20px; */
+}
+
+h1 {
+  font-size: 490%;
+}
+
+#quote {
+  background-color: red;
+}
+
+.text-center {
+  background-color: red;
+  /* margin-top: 30px; */
+}
+.blockquote {
+  font-size: 30px;
+  color: white;
+}
+.blockquote-footer {
+  font-size: 30px;
+  color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 700px;
+  object-fit: fill;
+}
+
+/* Footer Section Styles */
+.footer-text-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vw;
+}
+
+#footer-logo {
+  width: 100%;
+  max-width: 100%;
+}
+
+#footer {
+  border-top: 3px solid black;
+}
+
+#footer_img {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Profile Styles */
+#background {
+  background-color: red;
+  background-image: url(../images/marvel_characters.webp);
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 38%;
+  left: 20rem;
+  top: 10rem;
+  color: white;
+}

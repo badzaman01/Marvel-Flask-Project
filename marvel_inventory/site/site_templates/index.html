@@ -1,0 +1,131 @@
+{% extends 'base.html' %} {% block content %}
+
+  <div id="title">
+    <h1>Marvel Mania</h1>
+  </div>
+  <!-- blockquote -->
+  <div id="quote">
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <p>"Avengers...Assemble!"</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Captain America - <cite title="Source Title">Avengers Endgame</cite>
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- carousel bootstrap -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../../static/images/ironman.webp">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Ironman</h2>
+          <h3><b>Playboy, philanthropist, genius (we can go on for days)</b></h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../static/images/captain_america.webp">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Captain America</h2>
+          <h3>The ultimate hero to lay his life down for true American values</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../static/images/hulk.avif">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>The Incredible Hulk</h2>
+          <h3>HULK SMASH</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../static/images/black_widow_2.png">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Black Widow</h2>
+          <h3>She's much more than a secret agent in the ranks</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../static/images/thor.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Thor</h2>
+          <h3>The mighty Thor has unfathomable power and is undoubtedly the most powerful Avenger</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../static/images/hawkeye.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Hawk-Eye</h2>
+          <h3>The greatest archer who ever lived</h3>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- end of community section -->
+  <!-- start of footer -->
+  <footer class="row" id="footer">
+    <div class="col-2 col-md-2">
+      <img id="footer_img" src="../../static/images/Marvel_Logo.svg.png">
+    </div>
+    <div class="col-2 col-md-2">
+      <div class="footer-text-flex">
+        <h4>Marvel Inc</h4>
+        <p>The Marvel Project</p>
+        <p>Location</p>
+        <p>Contact Info</p>
+      </div>
+    </div>
+    <div class="col-2 col-md-2">
+      <div class="footer-text-flex">
+        <h4>Marvel Inc</h4>
+        <p>The Marvel Project</p>
+        <p>Location</p>
+        <p>Contact Info</p>
+      </div>
+    </div>
+    <div class="col-2 col-md-2">
+      <div class="footer-text-flex">
+        <h4>Marvel Inc</h4>
+        <p>The Marvel Project</p>
+        <p>Location</p>
+        <p>Contact Info</p>
+      </div>
+    </div>
+    <div class="col-2 col-md-2">
+      <div class="footer-text-flex">
+        <h4>Marvel Inc</h4>
+        <p>The Marvel Project</p>
+        <p>Location</p>
+        <p>Contact Info</p>
+      </div>
+    </div>
+    <div class="col-2 col-md-2">
+      <div class="footer-text-flex">
+        <h4>Marvel Inc</h4>
+        <p>The Marvel Project</p>
+        <p>Location</p>
+        <p>Contact Info</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+{% endblock content %}
